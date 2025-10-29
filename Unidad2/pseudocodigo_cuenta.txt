@@ -1,0 +1,13 @@
+Inicio
+Definir numero Como Entero
+Definir i Como Entero
+Escribir("Dime un número para iniciar la cuenta atrás desde 5 - 50:")
+Leer (numero)
+Si 5 <= numero <= 50 Entonces
+    Para i = numero en el rango(numero, -1 ,-1) Hacer
+        Escribir(i);
+    FinPara
+    Escribir("¡BOOOOOOOOMMMM, que tonto!")
+Si no
+    Escribir("Número fuera de rango. Por favor, introduce un número entre 5 y 50.")
+Fin

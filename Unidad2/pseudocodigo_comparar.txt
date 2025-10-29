@@ -1,0 +1,13 @@
+Inicio
+Definir numero1, numero2 Como Entero
+Escribir("Introduce el primer número:")
+Leer(numero1)
+Escribir("Introduce el segundo número:")
+Leer(numero2)
+Si numero1 > numero2 Entonces
+    Escribir("El numero{numero1} es mayor que el numero{numero2}")
+Sino Si numero1 < numero2 Entonces
+    Escribir("El numero{numero1} es menor que el numero{numero2}")
+Sino
+    Escribir("Ambos numeros son iguales")
+Fin

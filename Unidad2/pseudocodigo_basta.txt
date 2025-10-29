@@ -1,0 +1,20 @@
+Inicio
+Escribir("Para salir del bucle, ingrese !Basta¡")
+Definir palabras Como Cadena
+Definir peticiones como Entero
+Definir palabra como texto
+peticiones = 0
+Mientras verdad Hacer
+    Escribir("Ingrese una palabra:")
+    Leer(palabra)
+Si palabras == "!Basta¡" Entonces
+    Escribir("Has soportado estoicamente",peticiones,"preguntas.")
+    Salir
+Sino
+    peticiones =+ 1
+    añadir palabra a palabras
+    para p en palabras Hacer
+        Escribir(p, final=" ")
+    FinPara
+    Escribir("")
+ Final
